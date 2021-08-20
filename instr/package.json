@@ -1,0 +1,17 @@
+{
+  "name": "ushio-v2ray-instr",
+  "version": "0.0.1",
+  "description": "Instruction for ushio-v2ray",
+  "main": "index.js",
+  "repository": "https://github.com/IoTcat/ushio-v2ray",
+  "scripts": {
+    "start": "docsify",
+    "serve": "docsify serve ."
+  },
+  "author": "IoTcat <i@iotcat.me>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "docsify-cli": "^4.4.1"
+  }
+}
