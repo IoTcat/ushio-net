@@ -466,4 +466,4 @@ Linux拥有一些支持V2ray内核的开源图形化客户端，例如[Qv2ray](h
 ---------------
 ----------------
 
-[<kbd>&rarr;</kbd> 下一页](/advanced)
+[<kbd>&rarr;</kbd> 下一页](/advanced?id=进阶)

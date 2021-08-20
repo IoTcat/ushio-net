@@ -353,4 +353,4 @@ China-Taian服务器将两服务器间隧道传来的流量解密，并以freedo
 
 ----------------
 
-[<kbd>&rarr;</kbd> 下一页](/changelog)
+[<kbd>&rarr;</kbd> 下一页](/changelog?id=开发日志)
