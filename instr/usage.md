@@ -2,7 +2,7 @@
 
 Ushio-Net使用Ushio系统进行用户管理。
 
-如果您还没有注册过，请[点击这里](https://login.yimian.xyz/?require=tel)进行注册。
+如果您还没有注册过，请<button onClick="session.onload(function(){if(session.get('group') !== 'anonymous'){tips.show({message: session.get('nickname')+', 您已登录！', position: 'center', timeout: 10000});}else{window.open('https://login.yimian.xyz/?require=tel&from=https://v2ray.yimian.xyz/','_blank');}});">点击这里</button>进行注册。
 
 
 # 授权
