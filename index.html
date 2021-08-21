@@ -62,11 +62,20 @@
 				});
 				tips.info({
 					message: '身份认证中..请稍等..',
-                    timeout: 10000
+                    position: 'center',
+                    timeout: 100000
 				});
 				session.onload(()=>{
 					$('#sub').val('https://api.yimian.xyz/v2ray/?hash='+session.get('hash'));
 					$.get('https://api.yimian.xyz/v2ray/?hash='+session.get('hash'), function(res){
+                        tipsObj.hide({}, document.querySelector('.iziToast'));
+                        if(res.length <= 5){
+                            tips.warning({
+                                message: '没有找到您的订阅信息!',
+                                position: 'center',
+                                timeout: 1000000
+                            });
+                        }
 						res = window.atob(res);
 						var s = res.split("\n");
 						s.forEach((item)=>{
