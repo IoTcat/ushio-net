@@ -219,6 +219,7 @@ Linux拥有一些支持V2ray内核的开源图形化客户端，例如[Qv2ray](h
 1. 重新打开Shadowrocket的主页面，点击<mark>右上角加号</mark>。
 1. 类型选择<mark>Subscribe</mark>。
 1. 将刚才从网页上复制的内容粘贴到<mark>URL</mark>中。
+1. 点击右上角<mark>完成</mark>。
 1. 回到主页面，点击新出现的服务器节点（一般是`api.yimian.xyz`）。
 1. 如果下方出现多个新的服务器，则代表订阅成功。
 
