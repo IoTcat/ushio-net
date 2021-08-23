@@ -57,11 +57,6 @@ graph LR
             "protocol": "blackhole",
             "settings": {},
             "tag": "blocked"
-        },
-        {
-            "protocol": "mtproto",
-            "settings": {},
-            "tag": "tg-out"
         }
     ],
     "routing": {
@@ -70,58 +65,14 @@ graph LR
             {
                 "type": "field",
                 "ip": [
-                    "0.0.0.0/8",
-                    "10.0.0.0/8",
-                    "100.64.0.0/10",
-                    "127.0.0.0/8",
-                    "169.254.0.0/16",
-                    "172.16.0.0/12",
-                    "192.0.0.0/24",
-                    "192.0.2.0/24",
-                    "192.168.0.0/16",
-                    "198.18.0.0/15",
-                    "198.51.100.0/24",
-                    "203.0.113.0/24",
-                    "::1/128",
-                    "fc00::/7",
-                    "fe80::/10"
+                  "geoip:private"
                 ],
                 "outboundTag": "blocked"
             },
             {
                 "type": "field",
-                "inboundTag": [
-                    "tg-in"
-                ],
-                "outboundTag": "tg-out"
-            },
-            {
-                "type": "field",
                 "domain": [
-                    "domain:epochtimes.com",
-                    "domain:epochtimes.com.tw",
-                    "domain:epochtimes.fr",
-                    "domain:epochtimes.de",
-                    "domain:epochtimes.jp",
-                    "domain:epochtimes.ru",
-                    "domain:epochtimes.co.il",
-                    "domain:epochtimes.co.kr",
-                    "domain:epochtimes-romania.com",
-                    "domain:erabaru.net",
-                    "domain:lagranepoca.com",
-                    "domain:theepochtimes.com",
-                    "domain:ntdtv.com",
-                    "domain:ntd.tv",
-                    "domain:ntdtv-dc.com",
-                    "domain:ntdtv.com.tw",
-                    "domain:minghui.org",
-                    "domain:renminbao.com",
-                    "domain:dafahao.com",
-                    "domain:dongtaiwang.com",
-                    "domain:falundafa.org",
-                    "domain:wujieliulan.com",
-                    "domain:ninecommentaries.com",
-                    "domain:shenyun.com"
+                    "geosite:category-ads"
                 ],
                 "outboundTag": "blocked"
             },
@@ -151,7 +102,7 @@ graph LR
     	Los_Angeles
     	China-Taian
     end
-    用户客户端 --vmess---> Los_Angeles --vmess---> China-Taian --freedom---> china(国内网络)
+    用户客户端 --vmess---> Los_Angeles --VLESS---> China-Taian --freedom---> china(国内网络)
     Los_Angeles --geosite:geolocation-!cn freedom---> usa(外部网络)
 
 ```
@@ -195,7 +146,7 @@ graph LR
         {
             "tag": "tunnel",
             "port": 81,
-            "protocol": "vmess",
+            "protocol": "vless",
             "settings": {
                 "clients": []
             },
@@ -216,6 +167,36 @@ graph LR
     ],
     "routing": {
         "rules": [
+            {
+                "type": "field",
+                "inboundTag": [
+                    "external"
+                ],
+                "ip": [
+                  "geoip:private"
+                ],
+                "outboundTag": "blocked"
+            },
+            {
+                "type": "field",
+                "inboundTag": [
+                    "external"
+                ],
+                "domain": [
+                    "geosite:category-ads"
+                ],
+                "outboundTag": "blocked"
+            },
+            {
+                "type": "field",
+                "inboundTag": [
+                    "external"
+                ],
+                "protocol": [
+                    "bittorrent"
+                ],
+                "outboundTag": "blocked"
+            }
             {
                 "type": "field",
                 "inboundTag": [
@@ -248,7 +229,7 @@ graph LR
 }
 ```
 
-如上文所示，用户数据以vmess-ws形式进入服务器，然后服务器将其以反向代理方式传入两个服务器之间的vmess通道。在路由过程中，如果发现请求目标是国外的常见网站，比如google, youtube, 则不再发往China-Taian而是直接与网站服务器以freedom建立联系。
+如上文所示，用户数据以vmess-ws形式进入服务器，然后服务器将其以反向代理方式传入两个服务器之间的VLESS通道。在路由过程中，如果发现请求目标是国外的常见网站，比如google, youtube, 则不再发往China-Taian而是直接与网站服务器以freedom建立联系。
 
 
 ### China-Taian
@@ -296,11 +277,6 @@ graph LR
             "settings": {
             },
             "tag": "out"
-        },
-        {
-            "protocol": "blackhole",
-            "settings": {},
-            "tag": "blocked"
         }
     ],
     "dns": {
@@ -311,27 +287,6 @@ graph LR
     "routing": {
         "domainStrategy": "IPOnDemand",
         "rules": [
-            {
-                "type": "field",
-                "ip": [
-                    "0.0.0.0/8",
-                    "10.0.0.0/8",
-                    "100.64.0.0/10",
-                    "127.0.0.0/8",
-                    "169.254.0.0/16",
-                    "172.16.0.0/12",
-                    "192.0.0.0/24",
-                    "192.0.2.0/24",
-                    "192.168.0.0/16",
-                    "198.18.0.0/15",
-                    "198.51.100.0/24",
-                    "203.0.113.0/24",
-                    "::1/128",
-                    "fc00::/7",
-                    "fe80::/10"
-                ],
-                "outboundTag": "blocked"
-            },
             {
                 "type": "field",
                 "inboundTag": ["bridge"],
