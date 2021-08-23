@@ -85,12 +85,20 @@
 						});
 						var arr = [];
 						s.forEach((item)=>{
-							arr.push(JSON.parse(window.atob(item.substr(8))));
+                            let url = new URL(item);
+                            if(url.protocol === 'vmess:'){
+							    arr.push(JSON.parse(window.atob(item.substr(8))));
+                            }
+                            if(url.protocol === 'vless:'){
+                                arr.push({
+                                    ps: item.split("#")[1]
+                                });
+                            }
 						});
 						console.log(arr);
 						var i = 0;
 						function next(){
-
+console.log(arr)
 							$('#info').html('<strong>host:</strong> '+ arr[i%s.length]['ps']);
 							qrcode.makeCode(s[i++%s.length]);
 						}
