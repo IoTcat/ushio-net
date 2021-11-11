@@ -6,5 +6,4 @@
 
 - 连接全世界
 
-[GitHub](https://github.com/iotcat/ushio-net/)
 [开始](#Ushio-Net)
