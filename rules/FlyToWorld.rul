@@ -1,0 +1,31 @@
+[
+  {
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "protocol": [
+      "bittorrent"
+    ],
+    "enabled": true
+  },
+  {
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "ip": [
+      "geoip:cn",
+      "geoip:private"
+    ],
+    "domain": [
+      " @@||*.microsoft.com",
+      " @@||*office365.com",
+      "@@||*.outlook.com",
+      "geosite:cn",
+      "geosite:onedrive"
+    ],
+    "enabled": true
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "proxy",
+    "enabled": true
+  }
+]
