@@ -1,0 +1,31 @@
+[
+  {
+    "port": "",
+    "inboundTag": [],
+    "outboundTag": "direct",
+    "ip": [],
+    "domain": [],
+    "protocol": [
+      "bittorrent"
+    ],
+    "enabled": true
+  },
+  {
+    "port": "",
+    "inboundTag": [],
+    "outboundTag": "proxy",
+    "ip": [
+      "geoip:cn"
+    ],
+    "domain": [
+      "geosite:cn"
+    ],
+    "protocol": [],
+    "enabled": true
+  },
+  {
+    "port": "0-65535",
+    "outboundTag": "direct",
+    "enabled": true
+  }
+]
