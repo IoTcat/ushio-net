@@ -15,9 +15,13 @@
       "geoip:private"
     ],
     "domain": [
-      " @@||*.microsoft.com",
-      " @@||*office365.com",
-      "@@||*.outlook.com",
+      "microsoft.com",
+      "office365.com",
+      "outlook.com",
+      "yimian.xyz",
+      "iotcat.me",
+      "eee.dog",
+      "haoz.me",
       "geosite:cn",
       "geosite:onedrive"
     ],
