@@ -414,7 +414,7 @@ Linux拥有一些支持V2ray内核的开源图形化客户端，例如[Qv2ray](h
 **开启访问国内**
 
 -  请在屏幕右下角**任务栏**找到V图标![v2rayN icon](/img/v2rayN_ico.png)并<mark>**右键**</mark>点击，选择<mark>服务器->China-Taian</mark>。
--  选择<mark>路由->出回</mark>。
+-  选择<mark>路由->回国</mark>。
 -  选择<mark>系统代理->自动配置系统代理</mark>。
 
 
@@ -454,13 +454,13 @@ Linux拥有一些支持V2ray内核的开源图形化客户端，例如[Qv2ray](h
 -  打开Shadowrocket首页, 点击上面第一项<mark>未连接</mark>，使其显示<mark>China-Taian</mark> 。
 
 
-?> 完成这个操作后，你的所有APP将能够使用国内IP访问资源，从而打破IP版权限制。国外的网站和APP访问速度会有所下降。此模式<mark>**请仅在需要时使用**</mark>！
+?> 完成这个操作后，你的所有APP将能够使用国内IP访问资源，从而打破IP版权限制。国外的网站和APP访问速度不会下降。此模式<mark>**推荐长期使用**</mark>！
 
 **关闭访问回国**
 
 -  打开Shadowrocket首页, 点击上面第一项<mark>China-Taian</mark>，使其显示<mark>未连接</mark> 。
 
-?> 完成这个操作后，V2rayNG将被关闭，你的APP将无法打破IP版权限制，但国外网站和APP的访问速度会恢复。<mark>**一般情况请使用这一模式**</mark>
+?> 完成这个操作后，V2rayNG将被关闭，你的APP将无法打破IP版权限制。
 
 #### **Mac**
 
