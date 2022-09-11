@@ -31,7 +31,7 @@ Ushio-Net使用Ushio系统进行用户管理。
 
 Win10拥有一些支持V2ray内核的开源图形化客户端，例如[V2RayN](https://github.com/2dust/v2rayN), [V2RayW](https://github.com/Cenmrev/V2RayW), [clash](https://github.com/Fndroid/clash_for_windows_pkg), [Qv2ray](https://github.com/lhy0403/Qv2ray), [Mellow](https://github.com/mellow-io/mellow)等。
 
-本文将介绍如何配置<mark>V2RayN<sub>V3.21</sub></mark>作为你的Ushio-Net客户端。
+本文将介绍如何配置<mark>V2RayN<sub>V5.34</sub></mark>作为你的Ushio-Net客户端。
 
 
 
@@ -39,14 +39,14 @@ Win10拥有一些支持V2ray内核的开源图形化客户端，例如[V2RayN](h
 
 Android拥有一些支持V2ray内核的图形化客户端，例如[V2RayNG](https://github.com/2dust/v2rayNG), [BifrostV](https://play.google.com/store/apps/details?id=com.github.dawndiy.bifrostv), [Kitsunebi](https://play.google.com/store/apps/details?id=fun.kitsunebi.kitsunebi4android&hl=en_US)等。
 
-本文将介绍如何配置<mark>V2RayNG<sub>V1.6.16</sub></mark>作为你的Ushio-Net客户端。
+本文将介绍如何配置<mark>V2RayNG<sub>V1.7.3</sub></mark>作为你的Ushio-Net客户端。
 
 
 #### **IOS/IPad**
 
 IOS/IPad拥有一些支持V2ray内核的图形化客户端，例如[Shadowrocket](https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8), [i2Ray](https://itunes.apple.com/us/app/i2ray/id1445270056?mt=8), [Kitsunebi](https://itunes.apple.com/us/app/kitsunebi-proxy-utility/id1446584073?mt=8)等。
 
-本文将介绍如何配置<mark>Shadowrocket<sub>V2.1.83</sub></mark>作为你的Ushio-Net客户端。
+本文将介绍如何配置<mark>Shadowrocket<sub>V2.2.16</sub></mark>作为你的Ushio-Net客户端。
 
 
 #### **Mac**
@@ -75,24 +75,21 @@ Linux拥有一些支持V2ray内核的开源图形化客户端，例如[Qv2ray](h
 <!-- tabs:start -->
 
 #### **Win10**
- - [V2RayN下载链接](https://onedrive.yimian.xyz/packages/programs/all/v2ray/Windows_v2rayN-Core.zip)
- - [V2Ray备用链接](https://github.com/2dust/v2rayN/releases/download/3.21/v2rayN-Core.zip)
- - [V2Ray备用链接2](https://proxy.yimian.xyz/get/?url=aHR0cHM6Ly9naXRodWIuY29tLzJkdXN0L3YycmF5Ti9yZWxlYXNlcy9kb3dubG9hZC8zLjIxL3YycmF5Ti1Db3JlLnppcA==)
+ - [V2Ray备用链接](https://github.com/2dust/v2rayN/releases/download/5.34/v2rayN-Core.zip)
+ - [V2Ray备用链接2](https://proxy.yimian.xyz/get/?url=aHR0cHM6Ly9naXRodWIuY29tLzJkdXN0L3YycmF5Ti9yZWxlYXNlcy9kb3dubG9hZC81LjM0L3YycmF5Ti1Db3JlLnppcA==)
 
 #### **Android**
 
- - [V2RayNG下载链接](https://onedrive.yimian.xyz/packages/programs/all/v2ray/Android_v2rayNG_1.6.16.apk)
- - [V2Ray备用链接](https://github.com/2dust/v2rayNG/releases/download/1.6.16/v2rayNG_1.6.16.apk)
- - [V2Ray备用链接2](https://proxy.yimian.xyz/get/?url=aHR0cHM6Ly9naXRodWIuY29tLzJkdXN0L3YycmF5TkcvcmVsZWFzZXMvZG93bmxvYWQvMS42LjE2L3YycmF5TkdfMS42LjE2LmFwaw==)
+ - [V2Ray备用链接](https://github.com/2dust/v2rayNG/releases/download/1.7.3/v2rayNG_1.7.3.apk)
+ - [V2Ray备用链接2](https://proxy.yimian.xyz/get/?url=aHR0cHM6Ly9naXRodWIuY29tLzJkdXN0L3YycmF5TkcvcmVsZWFzZXMvZG93bmxvYWQvMS43LjMvdjJyYXlOR18xLjcuMy5hcGs=)
 
 #### **IOS/IPad**
 
-请参考[这个链接](https://shadowsockshelp.github.io/ios/)。
+如果你的应用商店地区在国外，如美国、英国，请直接从应用商店搜索<mark>shadowrocket</mark>付费下载。如果你的应用商店地区在国内，请参考[这个链接](https://shadowsockshelp.github.io/ios/)。
 
 
 #### **Mac**
 
- - [V2RayU下载链接](https://onedrive.yimian.xyz/packages/programs/all/v2ray/Mac_V2rayU.dmg)
  - [V2RayU备用链接](https://github.com/yanue/V2rayU/releases/download/2.3.1/V2rayU.dmg)
  - [V2RayU备用链接2](https://proxy.yimian.xyz/get/?url=aHR0cHM6Ly9naXRodWIuY29tL3lhbnVlL1YycmF5VS9yZWxlYXNlcy9kb3dubG9hZC8yLjMuMS9WMnJheVUuZG1n)
 
@@ -150,9 +147,10 @@ Linux拥有一些支持V2ray内核的开源图形化客户端，例如[Qv2ray](h
 
 ?> **注意** 任务栏可能被自动折叠，请展开任务栏查找！
 
-1. 在弹出的窗口中，选择<mark>参数设置</mark>。
+1. 在弹出的窗口中，选择<mark>设置</mark>-><mark>参数设置</mark>。
 1. 找到<mark>v2rayN设置</mark>，勾选<mark>开机自启动</mark>。
-1. 点击<mark>确定</mark>键。
+1. 点击下方<mark>解除Windows10 UWP应用回环代理限制</mark>，在弹出的窗口中，点击<mark>Exempt All</mark>，然后点击<mark>Save Changes</mark>。
+1. 点击参数设置窗口的<mark>确定</mark>键。
 
 #### **Android**
 
@@ -162,7 +160,7 @@ Linux拥有一些支持V2ray内核的开源图形化客户端，例如[Qv2ray](h
 
 ?> 这里我用的是华为系统的步骤，其它手机类似。
 
-?> 对于部分手机（比如华为），可以将v2rayNG设置为通知栏常驻，从而可以像开关WiFi那样方便的开关V2RayNG，
+?> 对于部分手机（比如华为, 小米等），可以将v2rayNG设置为通知栏常驻，从而可以像开关WiFi那样方便的开关V2RayNG，
 
 
 
@@ -193,7 +191,7 @@ Linux拥有一些支持V2ray内核的开源图形化客户端，例如[Qv2ray](h
 1. 在订阅设置窗口中，点击左下方<mark>添加</mark>。
 1. 将刚才复制的内容黏贴到<mark>地址</mark>中。
 1. 点击下方<mark>确定</mark>。
-1. 回到V2RayN主页面，点击上方<mark>订阅->>更新订阅</mark>.
+1. 回到V2RayN主页面，点击上方<mark>订阅->>更新订阅（不通过代理）</mark>.
 1. 如果主窗口中有新的服务器出现，则代表订阅成功。
 
 
@@ -245,12 +243,12 @@ Linux拥有一些支持V2ray内核的开源图形化客户端，例如[Qv2ray](h
 
 #### **Win10**
 
-1. 在V2rayN主页面，**右键**点击别名为<mark>Los_Angeles</mark>的服务器，选择<mark>设为活动服务器</mark>。
-1. 在V2RayN主页面，点击上方<mark>参数设置</mark>。
-1. 点击<mark>Core:路由设置</mark>。
-1. 点击<mark>一键设置默认自定义路由规则</mark>。
-1. <mark>域名解析策略</mark>设置为<mark>IPIfNonMatch</mark>。
-1. 点击下方<mark>确定</mark>。
+1. 在主窗口中，选择<mark>设置</mark>-><mark>路由设置</mark>。
+1. 点击<mark>高级功能</mark>-><mark>添加规则集</mark>
+1. 在别名，填写<mark>出国</mark>，订阅地址填写<mark>https://v2ray.yimian.xyz/rules/FlyToWorld.rul</mark>
+1. 点击<mark>导入规则</mark>-><mark>从订阅Url中导入规则</mark>，在是否追加的弹出中，选择<mark>否</mark>。
+1. 在规则集设置窗口，点击<mark>确定</mark>
+1. 在路由设置窗口，点击<mark>确定</mark>
 
 
 #### **Android**
@@ -292,7 +290,9 @@ Linux拥有一些支持V2ray内核的开源图形化客户端，例如[Qv2ray](h
 
 **开启外网访问**
 
--  请在屏幕右下角**任务栏**找到V图标![v2rayN icon](/img/v2rayN_ico.png)并<mark>**右键**</mark>点击，选择<mark>Http代理->>开启Http代理，并自动配置系统代理（全局模式）</mark>。
+-  请在屏幕右下角**任务栏**找到V图标![v2rayN icon](/img/v2rayN_ico.png)并<mark>**右键**</mark>点击，选择<mark>服务器->Los_Angeles</mark>。
+-  选择<mark>路由->出国</mark>。
+-  选择<mark>系统代理->自动配置系统代理</mark>。
 
 
 ?> 完成这个操作后，你将能够使用浏览器访问Google等服务。国内的网站将会直接连接，而不会通过代理。此模式<mark>**推荐长期使用**</mark>！
@@ -300,7 +300,7 @@ Linux拥有一些支持V2ray内核的开源图形化客户端，例如[Qv2ray](h
 
 **关闭外网访问**
 
--  请在屏幕右下角**任务栏**找到V图标![v2rayN icon](/img/v2rayN_ico_red.png)并<mark>**右键**</mark>点击，选择<mark>Http代理->>关闭Http代理</mark>。
+-  请在屏幕右下角**任务栏**找到V图标![v2rayN icon](/img/v2rayN_ico_red.png)并<mark>**右键**</mark>点击，选择<mark>系统代理->清除系统代理</mark>。
 
 ?> 完成这个操作后，你将无法访问Google等服务，但国内网站可正常访问。
 
@@ -365,15 +365,13 @@ Linux拥有一些支持V2ray内核的开源图形化客户端，例如[Qv2ray](h
 
 #### **Win10**
 
-1. 在V2rayN主页面，**右键**点击别名为<mark>China-Taian</mark>的服务器，选择<mark>设为活动服务器</mark>。
-1. 在V2RayN主页面，点击上方<mark>参数设置</mark>。
-1. 点击<mark>Core:路由设置</mark>。
-1. **删掉**<mark>代理的Domian或IP</mark>里面的全部内容。
-1. **删掉**<mark>直连的Domian或IP</mark>里面的全部内容。
-1. <mark>预定义规则</mark>设置为<mark>全局</mark>。
-1. <mark>域名解析策略</mark>设置为<mark>IPIfNonMatch</mark>。
-1. 点击下方<mark>确定</mark>。
 
+1. 在主窗口中，选择<mark>设置</mark>-><mark>路由设置</mark>。
+1. 点击<mark>高级功能</mark>-><mark>添加规则集</mark>
+1. 在别名，填写<mark>回国</mark>，订阅地址填写<mark>https://v2ray.yimian.xyz/rules/BackToChina.rul</mark>
+1. 点击<mark>导入规则</mark>-><mark>从订阅Url中导入规则</mark>，在是否追加的弹出中，选择<mark>否</mark>。
+1. 在规则集设置窗口，点击<mark>确定</mark>
+1. 在路由设置窗口，点击<mark>确定</mark>
 
 #### **Android**
 
@@ -389,7 +387,11 @@ Linux拥有一些支持V2ray内核的开源图形化客户端，例如[Qv2ray](h
 
 #### **IOS/IPad**
 
+1. 点击左上角，扫描以下二维码    
 
+![回国配置](https://api.yimian.xyz/img/?path=imgbed/img_6ad7944_400x400_8_null_normal.jpeg)    
+
+1. 配置页面，点击get.conf (也有可能叫其他名字，总之不是default.conf)
 1. 在Shadowrocket首页，点击`China-Taian`，让它左边出现黄点。
 1. 点击<mark>全局路由->>代理</mark>。
 
@@ -411,17 +413,19 @@ Linux拥有一些支持V2ray内核的开源图形化客户端，例如[Qv2ray](h
 
 **开启访问国内**
 
--  请在屏幕右下角**任务栏**找到V图标![v2rayN icon](/img/v2rayN_ico.png)并<mark>**右键**</mark>点击，选择<mark>Http代理->>开启Http代理，并自动配置系统代理（全局模式）</mark>。
+-  请在屏幕右下角**任务栏**找到V图标![v2rayN icon](/img/v2rayN_ico.png)并<mark>**右键**</mark>点击，选择<mark>服务器->China-Taian</mark>。
+-  选择<mark>路由->出回</mark>。
+-  选择<mark>系统代理->自动配置系统代理</mark>。
 
 
-?> 完成这个操作后，你将能够打破IP限制访问国内资源。但国外网站的访问速度会有所下降。此模式<mark>**不推荐长期使用**</mark>！请在需要时再开启！！
+?> 完成这个操作后，你将能够打破IP限制访问国内资源。只有中国网站会被代理，国外网站将直接连接，不会影响国外网站访问速度，推荐长期使用！！
 
 
 **关闭访问国内**
 
--  请在屏幕右下角**任务栏**找到V图标![v2rayN icon](/img/v2rayN_ico_red.png)并<mark>**右键**</mark>点击，选择<mark>Http代理->>关闭Http代理</mark>。
+-  请在屏幕右下角**任务栏**找到V图标![v2rayN icon](/img/v2rayN_ico_red.png)并<mark>**右键**</mark>点击，选择<mark>系统代理->清除系统代理</mark>。
 
-?> 完成这个操作后，你将无法打破国内资源的IP限制，但国外网站会恢复到之前的访问速度。<mark>**推荐在不需要访问国内资源时，都使用此模式**</mark>！
+?> 完成这个操作后，你将无法打破国内资源的IP限制。
 
 
 
