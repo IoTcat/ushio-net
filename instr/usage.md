@@ -75,13 +75,13 @@ Linux拥有一些支持V2ray内核的开源图形化客户端，例如[Qv2ray](h
 <!-- tabs:start -->
 
 #### **Win10**
+ - [V2Ray链接](https://proxy.yimian.xyz/get/?url=aHR0cHM6Ly9naXRodWIuY29tLzJkdXN0L3YycmF5Ti9yZWxlYXNlcy9kb3dubG9hZC81LjM0L3YycmF5Ti1Db3JlLnppcA==)
  - [V2Ray备用链接](https://github.com/2dust/v2rayN/releases/download/5.34/v2rayN-Core.zip)
- - [V2Ray备用链接2](https://proxy.yimian.xyz/get/?url=aHR0cHM6Ly9naXRodWIuY29tLzJkdXN0L3YycmF5Ti9yZWxlYXNlcy9kb3dubG9hZC81LjM0L3YycmF5Ti1Db3JlLnppcA==)
 
 #### **Android**
 
+ - [V2Ray链接](https://proxy.yimian.xyz/get/?url=aHR0cHM6Ly9naXRodWIuY29tLzJkdXN0L3YycmF5TkcvcmVsZWFzZXMvZG93bmxvYWQvMS43LjMvdjJyYXlOR18xLjcuMy5hcGs=)
  - [V2Ray备用链接](https://github.com/2dust/v2rayNG/releases/download/1.7.3/v2rayNG_1.7.3.apk)
- - [V2Ray备用链接2](https://proxy.yimian.xyz/get/?url=aHR0cHM6Ly9naXRodWIuY29tLzJkdXN0L3YycmF5TkcvcmVsZWFzZXMvZG93bmxvYWQvMS43LjMvdjJyYXlOR18xLjcuMy5hcGs=)
 
 #### **IOS/IPad**
 
@@ -90,8 +90,8 @@ Linux拥有一些支持V2ray内核的开源图形化客户端，例如[Qv2ray](h
 
 #### **Mac**
 
+ - [V2RayU链接](https://proxy.yimian.xyz/get/?url=aHR0cHM6Ly9naXRodWIuY29tL3lhbnVlL1YycmF5VS9yZWxlYXNlcy9kb3dubG9hZC8yLjMuMS9WMnJheVUuZG1n)
  - [V2RayU备用链接](https://github.com/yanue/V2rayU/releases/download/2.3.1/V2rayU.dmg)
- - [V2RayU备用链接2](https://proxy.yimian.xyz/get/?url=aHR0cHM6Ly9naXRodWIuY29tL3lhbnVlL1YycmF5VS9yZWxlYXNlcy9kb3dubG9hZC8yLjMuMS9WMnJheVUuZG1n)
 
 
 #### **Linux**
