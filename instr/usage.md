@@ -389,7 +389,7 @@ Linux拥有一些支持V2ray内核的开源图形化客户端，例如[Qv2ray](h
 
 1. 点击左上角，扫描以下二维码    
 
-![回国配置](https://api.yimian.xyz/img/?path=imgbed/img_6ad7944_400x400_8_null_normal.jpeg)    
+![回国配置](/img/qrcode_ios_backcn.png)    
 
 1. 配置页面，点击get.conf (也有可能叫其他名字，总之不是default.conf)
 1. 在Shadowrocket首页，点击`China-Taian`，让它左边出现黄点。
