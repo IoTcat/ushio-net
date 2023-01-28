@@ -391,9 +391,9 @@ Linux拥有一些支持V2ray内核的开源图形化客户端，例如[Qv2ray](h
 
 ![回国配置](/img/qrcode_ios_backcn.png)    
 
-1. 配置页面，点击get.conf (也有可能叫其他名字，总之不是default.conf)
+1. 配置页面，点击ios_backcn.conf (也有可能叫其他名字，总之不是default.conf)
 1. 在Shadowrocket首页，点击`China-Taian`，让它左边出现黄点。
-1. 点击<mark>全局路由->>代理</mark>。
+1. 点击<mark>全局路由->>配置</mark>。
 
 
 #### **Mac**
